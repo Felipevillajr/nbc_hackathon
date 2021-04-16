@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import { Table } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/js/src/collapse.js";
 import "./Editors.scss";
 
 export default class Editors extends Component {
@@ -9,7 +12,7 @@ export default class Editors extends Component {
           <h1 class="editorsTextH">EDITORS</h1>
         </div>
 
-        <table class="editorsTable">
+        <Table class="editorsTable">
           <thead>
             <tr>
               <th className="editorsTableH">NAME</th>
@@ -20,7 +23,6 @@ export default class Editors extends Component {
           <tbody>
             <tr>
               <td>Padilla, Carlos</td>
-
               <td>270</td>
 
               <td>8</td>
@@ -74,8 +76,24 @@ export default class Editors extends Component {
 
               <td>8</td>
             </tr>
+            <tr
+              data-toggle="collapse"
+              data-target=".multi-collapse1"
+              aria-controls="multiCollapseExample1"
+            >
+              <td>Padilla, Carlos</td>
+
+              <td>270</td>
+
+              <td>8</td>
+            </tr>
+            <div class="collapse multi-collapse1" id="multiCollapseExample1">
+              <div>Child col 1</div>
+              <div>Child col 2</div>
+              <div>Child col 3</div>
+            </div>
           </tbody>
-        </table>
+        </Table>
       </div>
     );
   }
