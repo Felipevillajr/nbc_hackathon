@@ -1,9 +1,13 @@
 import React, { Component } from "react";
+import "./Projects.scss";
 
 export default class Projects extends Component {
   render() {
     return (
-      <div>
+      <div className="projects">
+        <div className="projectsText">
+          <h1 className="projectsTextH">PROJECTS</h1>
+        </div>
         <table>
           <thead>
             <tr>

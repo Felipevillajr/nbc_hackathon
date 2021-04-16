@@ -1,8 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-// const projectsData = path.resolve("../data/data.json");
-// const projectList = require(projectsData);
+//basic route to get all data
 
 const router = require("express").Router();
 
