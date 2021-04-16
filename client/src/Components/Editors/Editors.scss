@@ -190,6 +190,7 @@ body {
     background: transparent;
     opacity: 0;
     cursor: pointer;
+    color: var(--clr-primary);
   }
 
   .search__submit {
@@ -202,7 +203,7 @@ body {
     transition: background 200ms ease-out;
     width: calc(var(--size) - 10px);
     height: calc(var(--size) - 10px);
-    color: $drop;
+    color: var(--clr-primary);
   }
 
   .search:focus-within {

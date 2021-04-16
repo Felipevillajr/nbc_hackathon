@@ -49,9 +49,9 @@ export default class Editors extends Component {
               data-target=".multi-collapse1"
               aria-controls="multiCollapseExample1"
             >
-              <td>Padilla, Carlos</td>
-              <td>270</td>
-              <td>8</td>
+              <td>Al Rojo Vivo</td>
+              <td>525</td>
+              <td>5</td>
             </tr>
             <div className="newCont">
               <tr class="collapse multi-collapse1" id="multiCollapseExample1">
@@ -68,9 +68,9 @@ export default class Editors extends Component {
               data-target=".multi-collapse2"
               aria-controls="multiCollapseExample2"
             >
-              <td>Padilla, Carlos</td>
-              <td>270</td>
-              <td>8</td>
+              <td>Network Partnership</td>
+              <td>2.5</td>
+              <td>1</td>
             </tr>
             <div className="newCont">
               <tr class="collapse multi-collapse2" id="multiCollapseExample2">
@@ -87,9 +87,9 @@ export default class Editors extends Component {
               data-target=".multi-collapse3"
               aria-controls="multiCollapseExample3"
             >
-              <td>Padilla, Carlos</td>
-              <td>370</td>
-              <td>8</td>
+              <td>El Cuerpo Del Deseo</td>
+              <td>5</td>
+              <td>1</td>
             </tr>
             <div className="newCont">
               <tr class="collapse multi-collapse3" id="multiCollapseExample3">
@@ -97,6 +97,101 @@ export default class Editors extends Component {
                 <th># OF HOURS WORKED ON</th>
               </tr>
               <tr class="collapse multi-collapse3" id="multiCollapseExample3">
+                <td>Child col 1</td>
+                <td>Child col 2</td>
+              </tr>
+            </div>
+            <tr
+              data-toggle="collapse"
+              data-target=".multi-collapse4"
+              aria-controls="multiCollapseExample4"
+            >
+              <td>El Chema</td>
+              <td>8</td>
+              <td>1</td>
+            </tr>
+            <div className="newCont">
+              <tr class="collapse multi-collapse4" id="multiCollapseExample4">
+                <th>PROJECTS</th>
+                <th># OF HOURS WORKED ON</th>
+              </tr>
+              <tr class="collapse multi-collapse4" id="multiCollapseExample4">
+                <td>Child col 1</td>
+                <td>Child col 2</td>
+              </tr>
+            </div>
+            <tr
+              data-toggle="collapse"
+              data-target=".multi-collapse5"
+              aria-controls="multiCollapseExample5"
+            >
+              <td>Tod Por Mi Hija</td>
+              <td>45</td>
+              <td>2</td>
+            </tr>
+            <div className="newCont">
+              <tr class="collapse multi-collapse5" id="multiCollapseExample5">
+                <th>PROJECTS</th>
+                <th># OF HOURS WORKED ON</th>
+              </tr>
+              <tr class="collapse multi-collapse5" id="multiCollapseExample5">
+                <td>Child col 1</td>
+                <td>Child col 2</td>
+              </tr>
+            </div>
+            <tr
+              data-toggle="collapse"
+              data-target=".multi-collapse6"
+              aria-controls="multiCollapseExample6"
+            >
+              <td>En Casa Con Telemundo</td>
+              <td>491</td>
+              <td>4</td>
+            </tr>
+            <div className="newCont">
+              <tr class="collapse multi-collapse6" id="multiCollapseExample6">
+                <th>PROJECTS</th>
+                <th># OF HOURS WORKED ON</th>
+              </tr>
+              <tr class="collapse multi-collapse6" id="multiCollapseExample6">
+                <td>Child col 1</td>
+                <td>Child col 2</td>
+              </tr>
+            </div>
+            <tr
+              data-toggle="collapse"
+              data-target=".multi-collapse7"
+              aria-controls="multiCollapseExample7"
+            >
+              <td>100 Dias 2</td>
+              <td>414</td>
+              <td>2</td>
+            </tr>
+            <div className="newCont">
+              <tr class="collapse multi-collapse7" id="multiCollapseExample7">
+                <th>PROJECTS</th>
+                <th># OF HOURS WORKED ON</th>
+              </tr>
+              <tr class="collapse multi-collapse7" id="multiCollapseExample7">
+                <td>Child col 1</td>
+                <td>Child col 2</td>
+              </tr>
+            </div>
+            <tr
+              data-toggle="collapse"
+              data-target=".multi-collapse8"
+              aria-controls="multiCollapseExample8"
+            >
+              <td>La Casa Del Al Lado</td>
+              <td>144</td>
+              <td>1</td>
+            </tr>
+            <div className="newCont">
+              <tr class="collapse multi-collapse8" id="multiCollapseExample8">
+                <th>PROJECTS</th>
+                <th># OF HOURS WORKED ON</th>
+              </tr>
+              <tr class="collapse multi-collapse8" id="multiCollapseExample8">
                 <td>Child col 1</td>
                 <td>Child col 2</td>
               </tr>
