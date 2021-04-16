@@ -43,7 +43,7 @@ export default class Editors extends Component {
               <th># OF PROJECTS WORKED ON</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="tbodyClass">
             <tr
               data-toggle="collapse"
               data-target=".multi-collapseEditor1"
@@ -119,6 +119,126 @@ export default class Editors extends Component {
                 <td>Child col 2</td>
               </tr>
             </div>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
+            </tr>
           </tbody>
         </Table>
       </div>
