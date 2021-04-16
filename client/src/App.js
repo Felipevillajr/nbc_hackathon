@@ -1,14 +1,13 @@
 import "./App.css";
-import Editors from "./Components/Editors/Editors.jsx";
+import Header from "./Components/Header/Header";
+import Editors from "./Components/Editors.jsx";
 import Projects from "./Components/Projects/Projects";
-
 function App() {
   return (
-    <div>
+    <div className="App">
+      <Header />
       <Editors />
-      {/* <Projects /> */}
+      <Projects />
     </div>
   );
 }
-
-export default App;
