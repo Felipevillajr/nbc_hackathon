@@ -55,7 +55,7 @@ export default class Header extends Component {
           </div>
 
           <div className="header__searchbar__right">
-            <img
+            {/* <img
               className="header__search__right__icon"
               alt="search icon"
               src={SearchImg}
@@ -65,7 +65,7 @@ export default class Header extends Component {
               type="text"
               name="search"
               placeholder="search"
-            />
+            /> */}
           </div>
         </div>
       </div>
