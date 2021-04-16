@@ -1,8 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React, { Component } from "react";
+import { BrowserRouter as Router, Switch, Link } from "react-router-dom";
+import Header from "./Components/Header/Header";
 
-function App() {
-  return <div className="App"></div>;
+export default class App extends Component {
+  render() {
+    return (
+      <Router>
+        <Header />
+      </Router>
+    );
+  }
 }
-
-export default App;
