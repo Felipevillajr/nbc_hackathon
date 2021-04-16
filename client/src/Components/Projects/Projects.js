@@ -18,7 +18,7 @@ export default class Editors extends Component {
     return (
       <div class="editors">
         <div class="editorsText">
-          <h1 class="editorsTextH">EDITORS</h1>
+          <h1 class="editorsTextH">PROJECTS</h1>
           <div class="content">
             <div class="search">
               <input
@@ -39,8 +39,8 @@ export default class Editors extends Component {
           <thead>
             <tr>
               <th className="editorsTableH">NAME</th>
-              <th># TOTAL HOURS WORKED</th>
-              <th># OF PROJECTS WORKED ON</th>
+              <th># TOTAL HOURS WORKED ON</th>
+              <th># OF EDITORS ON PROJECT</th>
             </tr>
           </thead>
           <tbody>

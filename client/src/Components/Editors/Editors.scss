@@ -28,6 +28,7 @@ body {
   background: linear-gradient(180deg, #90bbbe 50%, #ffffff 50%);
   &Cont {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 
