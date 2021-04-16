@@ -5,19 +5,29 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "start": "node index.js",
     "server": "nodemon index.js",
     "client": "cd ../client && npm run start",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+=======
+    "start": "nodemon index.js"
+>>>>>>> 60199b1a48593be1bd5a1764bbe01d317671d3b4
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "concurrently": "^6.0.2",
+=======
+    "axios": "^0.21.1",
+>>>>>>> 60199b1a48593be1bd5a1764bbe01d317671d3b4
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "fs": "0.0.1-security",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
   }
 }

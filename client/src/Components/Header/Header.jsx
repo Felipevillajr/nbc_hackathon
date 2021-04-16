@@ -8,11 +8,16 @@ export default class Header extends Component {
   render() {
     return (
       <div className="header">
-        <img className="logo" alt="telemundo" src={Logo} />
-        <h1 className="header__main__title">
-          TELEMUNDO CENTER Post-Production COE
-        </h1>
-        <h2 className="header__second__title">EDITOR HOUR DASHBOARD</h2>
+        <div className="header__titles">
+          <div>
+            <h1 className="header__main__title">
+              TELEMUNDO CENTER Post-Production COE
+            </h1>
+            <h2 className="header__second__title">EDITOR HOUR DASHBOARD</h2>
+          </div>
+
+          <img className="logo" alt="telemundo" src={Logo} />
+        </div>
         <div className="header__searchbar">
           <div className="header__searchbar__left">
             <select className="dropdown">

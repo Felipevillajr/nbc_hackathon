@@ -10,16 +10,21 @@
   align-items: flex-start;
   flex-direction: column;
   padding-left: 16px;
-  position: absolute;
-  min-width: 1290px;
+  min-width: 1434px;
+}
+
+.header__titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
 }
 
 .logo {
-  position: absolute;
+  position: relative;
   top: 1rem;
-  right: 5rem;
-  //   width: 120px;
-  //   height: 100px;
+  right: 2rem;
 }
 
 .header__main__title {
@@ -27,6 +32,7 @@
   color: white;
   font-weight: 400;
   font-family: Rokkitt;
+  margin-top: 2rem;
 }
 
 .header__second__title {
@@ -34,7 +40,7 @@
   font-size: 2rem;
   font-weight: bold;
   position: relative;
-  bottom: 2.5rem;
+  top: 1rem;
   font-family: Roboto;
 }
 
@@ -45,7 +51,7 @@
   width: 98%;
   height: 58px;
   position: relative;
-  bottom: 3rem;
+  top: 2rem;
   border-radius: 4px;
   filter: drop-shadow(0 4 4 0 25%);
 }
