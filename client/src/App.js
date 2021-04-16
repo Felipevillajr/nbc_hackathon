@@ -6,8 +6,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Editors />
-      <Projects />
+      <div className="AppCont">
+        <Editors />
+        <Projects />
+      </div>
     </div>
   );
 }
