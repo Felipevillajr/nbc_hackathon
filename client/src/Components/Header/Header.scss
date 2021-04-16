@@ -113,25 +113,23 @@
   border-radius: 4px;
   margin: 0 0.2rem;
   font-size: 0.9rem;
-  width: 50rem;
-  display: flex;
-  justify-content: space-between;
+  width: 46rem;
+  display: inline;
+  justify-content: center;
   padding: 0 0.5rem;
-  align-items: flex-end;
+  align-items: center;
   font-family: Roboto;
+  min-width: 343px;
 }
 
 .dropdown2 {
   border: none;
-  height: 31px;
+  height: 26px;
   border-radius: 4px;
   margin: 0 0.2rem;
   font-size: 0.9rem;
-  width: 10rem;
-  display: flex;
-  justify-content: space-between;
+  width: 11rem;
   padding: 0 0.5rem;
-  align-items: center;
   font-weight: bold;
   color: #70627b;
 }
