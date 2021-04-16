@@ -6,13 +6,13 @@ import "font-awesome/css/font-awesome.min.css";
 import "./Editors.scss";
 
 export default class Editors extends Component {
-  state = {
-    search: "",
-  };
+  // state = {
+  //   search: "",
+  // };
 
-  handleChange = (e) => {
-    this.setState({ search: e.target.value });
-  };
+  // handleChange = (e) => {
+  //   this.setState({ search: e.target.value });
+  // };
 
   render() {
     return (
@@ -22,7 +22,7 @@ export default class Editors extends Component {
           <div class="content">
             <div class="search">
               <input
-                onChange={this.handleChange}
+                // onChange={this.handleChange}
                 type="text"
                 class="search__input"
                 aria-label="search"

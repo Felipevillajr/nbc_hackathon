@@ -6,6 +6,7 @@ const projectRoute = require("./routes/projectsRoutes.js");
 
 app.use(express.json());
 app.use(cors());
+
 app.use("/", projectRoute);
 
 app.listen(8080, () => {
