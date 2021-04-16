@@ -50,27 +50,60 @@ export default class Editors extends Component {
               aria-controls="multiCollapseExample1"
             >
               <td>Padilla, Carlos</td>
-
               <td>270</td>
-
               <td>8</td>
             </tr>
-            <tr class="collapse multi-collapse1" id="multiCollapseExample1">
-              <th>Child col 1</th>
-              <th>Child col 2</th>
-              <th>Child col 3</th>
+            <div className="newCont">
+              <tr class="collapse multi-collapse1" id="multiCollapseExample1">
+                <th>PROJECTS</th>
+                <th># OF HOURS WORKED ON</th>
+              </tr>
+              <tr class="collapse multi-collapse1" id="multiCollapseExample1">
+                <td>Child col 1</td>
+                <td>Child col 2</td>
+              </tr>
+            </div>
+            <tr
+              data-toggle="collapse"
+              data-target=".multi-collapse2"
+              aria-controls="multiCollapseExample2"
+            >
+              <td>Padilla, Carlos</td>
+              <td>270</td>
+              <td>8</td>
             </tr>
-            <tr class="collapse multi-collapse1" id="multiCollapseExample1">
-              <td>Child col 1</td>
-              <td>Child col 2</td>
-              <td>Child col 3</td>
+            <div className="newCont">
+              <tr class="collapse multi-collapse2" id="multiCollapseExample2">
+                <th>PROJECTS</th>
+                <th># OF HOURS WORKED ON</th>
+              </tr>
+              <tr class="collapse multi-collapse2" id="multiCollapseExample2">
+                <td>Child col 1</td>
+                <td>Child col 2</td>
+              </tr>
+            </div>
+            <tr
+              data-toggle="collapse"
+              data-target=".multi-collapse3"
+              aria-controls="multiCollapseExample3"
+            >
+              <td>Padilla, Carlos</td>
+              <td>370</td>
+              <td>8</td>
             </tr>
-
+            <div className="newCont">
+              <tr class="collapse multi-collapse3" id="multiCollapseExample3">
+                <th>PROJECTS</th>
+                <th># OF HOURS WORKED ON</th>
+              </tr>
+              <tr class="collapse multi-collapse3" id="multiCollapseExample3">
+                <td>Child col 1</td>
+                <td>Child col 2</td>
+              </tr>
+            </div>
             <tr>
               <td>cadilla, Carlos</td>
-
               <td>270</td>
-
               <td>8</td>
             </tr>
           </tbody>
