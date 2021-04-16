@@ -2,14 +2,37 @@ import React, { Component } from "react";
 import { Table } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/js/src/collapse.js";
+import "font-awesome/css/font-awesome.min.css";
 import "./Editors.scss";
 
 export default class Editors extends Component {
+  state = {
+    search: "",
+  };
+
+  handleChange = (e) => {
+    this.setState({ search: e.target.value });
+  };
+
   render() {
     return (
       <div class="editors">
         <div class="editorsText">
           <h1 class="editorsTextH">EDITORS</h1>
+          <div class="content">
+            <div class="search">
+              <input
+                onChange={this.handleChange}
+                type="text"
+                class="search__input"
+                aria-label="search"
+                placeholder="Enter your search"
+              />
+              <button class="search__submit" aria-label="submit search">
+                <i className="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
         </div>
 
         <Table class="editorsTable">
@@ -21,61 +44,6 @@ export default class Editors extends Component {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Padilla, Carlos</td>
-              <td>270</td>
-
-              <td>8</td>
-            </tr>
-            <tr>
-              <td>Padilla, Carlos</td>
-
-              <td>270</td>
-
-              <td>8</td>
-            </tr>
-            <tr>
-              <td>Padilla, Carlos</td>
-
-              <td>270</td>
-
-              <td>8</td>
-            </tr>
-            <tr>
-              <td>Padilla, Carlos</td>
-
-              <td>270</td>
-
-              <td>8</td>
-            </tr>
-            <tr>
-              <td>Padilla, Carlos</td>
-
-              <td>270</td>
-
-              <td>8</td>
-            </tr>
-            <tr>
-              <td>Padilla, Carlos</td>
-
-              <td>270</td>
-
-              <td>8</td>
-            </tr>
-            <tr>
-              <td>Padilla, Carlos</td>
-
-              <td>270</td>
-
-              <td>8</td>
-            </tr>
-            <tr>
-              <td>Padilla, Carlos</td>
-
-              <td>270</td>
-
-              <td>8</td>
-            </tr>
             <tr
               data-toggle="collapse"
               data-target=".multi-collapse1"
@@ -87,11 +55,24 @@ export default class Editors extends Component {
 
               <td>8</td>
             </tr>
-            <div class="collapse multi-collapse1" id="multiCollapseExample1">
-              <div>Child col 1</div>
-              <div>Child col 2</div>
-              <div>Child col 3</div>
-            </div>
+            <tr class="collapse multi-collapse1" id="multiCollapseExample1">
+              <th>Child col 1</th>
+              <th>Child col 2</th>
+              <th>Child col 3</th>
+            </tr>
+            <tr class="collapse multi-collapse1" id="multiCollapseExample1">
+              <td>Child col 1</td>
+              <td>Child col 2</td>
+              <td>Child col 3</td>
+            </tr>
+
+            <tr>
+              <td>cadilla, Carlos</td>
+
+              <td>270</td>
+
+              <td>8</td>
+            </tr>
           </tbody>
         </Table>
       </div>
