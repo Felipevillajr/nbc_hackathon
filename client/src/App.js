@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./Components/Header/Header";
-import Editors from "./Components/Editors.jsx";
+import Editors from "./Components/Editors/Editors";
 import Projects from "./Components/Projects/Projects";
 function App() {
   return (
@@ -11,3 +11,5 @@ function App() {
     </div>
   );
 }
+
+export default App;
