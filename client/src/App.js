@@ -1,10 +1,11 @@
 import "./App.css";
-import Editors from "./components/Editors";
-
+import Editors from "./Components/Editors.jsx";
+import Projects from "./Components/Projects/Projects";
 function App() {
   return (
     <div className="App">
       <Editors />
+      <Projects />
     </div>
   );
 }
