@@ -101,11 +101,6 @@ export default class Editors extends Component {
                 <td>Child col 2</td>
               </tr>
             </div>
-            <tr>
-              <td>cadilla, Carlos</td>
-              <td>270</td>
-              <td>8</td>
-            </tr>
           </tbody>
         </Table>
       </div>
