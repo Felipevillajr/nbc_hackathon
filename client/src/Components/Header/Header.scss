@@ -42,6 +42,7 @@
   position: relative;
   top: 1rem;
   font-family: Roboto;
+  width: 410px;
 }
 
 .header__searchbar {
@@ -63,7 +64,7 @@
   height: 34px;
   font-size: 0.89rem;
   font-weight: bold;
-  margin-right: 1rem;
+  margin-right: 0.3rem;
 }
 .dropdown:focus {
   outline: none;
@@ -116,7 +117,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0 0.5rem;
-  align-items: center;
+  align-items: flex-end;
   font-family: Roboto;
 }
 
