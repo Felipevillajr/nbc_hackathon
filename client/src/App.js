@@ -1,18 +1,15 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
+
+import "./App.css";
 import Header from "./Components/Header/Header";
-import Editors from "./Components/Editors";
-
-export default class App extends Component {
-  render() {
-    return (
-      <Router>
-        <Header />
-
-        {/* <Switch>
-          <Route exact path="/" component="Editors" />
-        </Switch> */}
-      </Router>
-    );
-  }
+import Editors from "./Components/Editors.jsx";
+import Projects from "./Components/Projects/Projects";
+function App() {
+  return (
+    <div className="App">
+     <Header />
+      <Editors />
+      <Projects />
+    </div>
+  );
 }
+
